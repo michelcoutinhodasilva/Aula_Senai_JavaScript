@@ -1,0 +1,36 @@
+/*
+usando tag para estilizar
+*/
+/* 
+div {
+    background-color: aqua;
+} */
+
+/*
+usando ID para estilizar
+*/
+/* #caixa{
+    background-color: blue;
+} */
+ /*
+ usando classe para estilizar
+ */
+/* .novoTitulo{
+    color: brown;
+} */
+
+#caixa{
+    /*background-color: brown; /*cor de fundo do elemento*/ 
+    border-radius: 10px;
+    width: 300px; /*largura do elemento (em Pixels)*/
+    margin: 300px auto; /*margem do lado de fora do elemento -> (300px em cima e embaixo) e auto nas laterais(centralizado)*/
+    padding: 20px;/* espaço dentro do elemento*/
+    text-align: center;/* texto alinhado ao centro*/
+    border: 1px solid #cccccc /*borda do elemento*/
+    
+    
+}
+button{
+    padding: 10px 15px; /*espaço de 10 px em cima e embaixo e 15px nas laterais do botão*/
+    cursor:pointer; /* transforma o cursor (que no momento é uma setinha) em maozinha*/
+}
