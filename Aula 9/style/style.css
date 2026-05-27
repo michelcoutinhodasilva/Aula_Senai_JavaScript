@@ -1,0 +1,14 @@
+body{
+    background-color: #F4F4F4;
+    /*
+    deixa os elementos flexiveis na tela, permitindo que possamos usar alguns comandos de posicionamento dos elemetos filho
+    */
+    display: flex;
+    justify-content: center;/*alinha os elementos na direção do flex*/
+    align-items: center;/* alinha os elementos na direção contraria do flex*/
+
+
+    /*height é a altura do elemento, quando colocamos vh significa que estamos dando um 
+    tamanho pro elemento que corresponde a uma "porcentagem"* da tela ->viewport height*/
+    height: 100vh;
+}

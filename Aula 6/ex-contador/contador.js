@@ -5,7 +5,7 @@ let botao = document.getElementById("meuBotao");
 let botaoReiniciar = document.getElementById("zerar");
 
 botao.addEventListener("click", () => {
-    contador = contador + 1;
+    contador++
     meucontador.innerText = contador;
 });
 
