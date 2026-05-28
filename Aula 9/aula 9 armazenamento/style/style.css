@@ -1,0 +1,60 @@
+body {
+  background-color: #f4f4f4;
+  /*
+    deixa os elementos flexiveis na tela, permitindo que possamos usar alguns comandos de posicionamento dos elemetos filho
+    */
+  display: flex;
+  justify-content: center; /*alinha os elementos na direção do flex*/
+  align-items: center; /* alinha os elementos na direção contraria do flex*/
+
+  /*height é a altura do elemento, quando colocamos vh significa que estamos dando um 
+    tamanho pro elemento que corresponde a uma "porcentagem"* da tela ->viewport height*/
+  height: 100vh;
+}
+#caixa {
+  background-color: #ffffff;
+  width: 350px; /* largura da caixa*/
+  padding: 20px; /* espaço interno*/
+
+  border: 1px solid #cccccc;
+  border-radius: 10px; /*arredondamento do elemento*/
+}
+
+#input-tarefa {
+  width: 70%; /*largura em porcentagem e calculada em cima do elemento pai*/
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+#botao-adicionar {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #059905;
+  color: #ffffff;
+}
+#titulo {
+  text-align: center; /* alinha o texto ao centro*/
+}
+.botao-remover {
+  border: none;
+  background-color: none;
+  cursor: pointer;
+}
+
+li {
+  list-style: none; /* remove o estilo da lisra (padrao é a bolinha*/
+  background-color: #eeeeee;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between; /*coloca espaços entre os elementos*/
+  align-items: center;
+}
+
+#lista-tarefas {
+  padding: 0;
+}
